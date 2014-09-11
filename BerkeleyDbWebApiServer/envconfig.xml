@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<env>
+  <open>
+    <dbhome useTempIfFault="true">
+      D:\berkeley_db_home
+    </dbhome>
+    <flags>db_create,db_init_mpool</flags>
+  </open>
+  <close>
+    <flags>0</flags>
+  </close>
+</env>

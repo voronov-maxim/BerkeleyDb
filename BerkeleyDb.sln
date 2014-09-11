@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerkeleyDbWebApiServer", "BerkeleyDbWebApiServer\BerkeleyDbWebApiServer.csproj", "{CE48D982-7395-401F-B058-29E1003EBD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerkeleyDbWebApiSelfHost", "BerkeleyDbWebApiSelfHost\BerkeleyDbWebApiSelfHost.csproj", "{474DB014-18EB-4EB6-B7FA-805BB0BF97F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBerkeleyDbWebApiClient", "TestBerkeleyDbWebApiClient\TestBerkeleyDbWebApiClient.csproj", "{89803ECE-D18A-4DAF-B737-9CADD98458DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerkeleyDbWebApiClient", "BerkeleyDbWebApiClient\BerkeleyDbWebApiClient.csproj", "{5478A5B6-41B1-457D-B246-D4CA88E2FE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerkeleyDbWebApiUnitTest", "BerkeleyDbWebApiUnitTest\BerkeleyDbWebApiUnitTest.csproj", "{74356309-300A-456D-9937-9CE5A4BEB62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerkeleyDbNet", "BerkeleyDbNet\BerkeleyDbNet.csproj", "{9890CE82-3EA4-449E-8C0B-78DA6CBFC4F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerkeleyDbClient", "BerkeleyDbClient\BerkeleyDbClient.csproj", "{F26F9301-BF3C-49DA-B612-B58CDDCD78C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE48D982-7395-401F-B058-29E1003EBD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE48D982-7395-401F-B058-29E1003EBD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE48D982-7395-401F-B058-29E1003EBD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE48D982-7395-401F-B058-29E1003EBD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474DB014-18EB-4EB6-B7FA-805BB0BF97F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474DB014-18EB-4EB6-B7FA-805BB0BF97F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474DB014-18EB-4EB6-B7FA-805BB0BF97F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474DB014-18EB-4EB6-B7FA-805BB0BF97F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89803ECE-D18A-4DAF-B737-9CADD98458DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89803ECE-D18A-4DAF-B737-9CADD98458DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89803ECE-D18A-4DAF-B737-9CADD98458DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89803ECE-D18A-4DAF-B737-9CADD98458DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5478A5B6-41B1-457D-B246-D4CA88E2FE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5478A5B6-41B1-457D-B246-D4CA88E2FE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5478A5B6-41B1-457D-B246-D4CA88E2FE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5478A5B6-41B1-457D-B246-D4CA88E2FE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74356309-300A-456D-9937-9CE5A4BEB62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74356309-300A-456D-9937-9CE5A4BEB62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74356309-300A-456D-9937-9CE5A4BEB62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74356309-300A-456D-9937-9CE5A4BEB62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9890CE82-3EA4-449E-8C0B-78DA6CBFC4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9890CE82-3EA4-449E-8C0B-78DA6CBFC4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9890CE82-3EA4-449E-8C0B-78DA6CBFC4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9890CE82-3EA4-449E-8C0B-78DA6CBFC4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26F9301-BF3C-49DA-B612-B58CDDCD78C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26F9301-BF3C-49DA-B612-B58CDDCD78C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26F9301-BF3C-49DA-B612-B58CDDCD78C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26F9301-BF3C-49DA-B612-B58CDDCD78C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

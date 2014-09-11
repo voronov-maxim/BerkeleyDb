@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<berkeley>
+  <current version="libdb61_x86"/>
+  
+  <libdb61_x86>
+    <db>
+      <close of="368"/>
+      <cursor of="376"/>
+      <del of="380"/>
+      <get_pagesize of="544"/>
+      <open of="600"/>
+      <put of="608"/>
+      <set_flags of="684"/>
+    </db>
+    <dbc>
+      <close of="224"/>
+      <del of="240"/>
+      <get of="248"/>
+      <put of="260"/>
+    </dbc>
+    <dbenv>
+      <close of="344"/>
+      <open of="772"/>
+    </dbenv>
+  </libdb61_x86>
+</berkeley>
